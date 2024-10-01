@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+.div1{
+    display: flex;
+    width: 60px;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.div2{
+    display: flex;
+   width: 500px;
+   background-color: white;
+   flex-direction: column;
+   
+}
+.div3{
+    display: flex;
+    flex:1;
+    background-image: url(image/right.png);
+    background-size: cover;
+}
+
+.icon5{
+    width: 100%;
+    height: 50px;
+    flex-grow: 1;
+    
+}
+.img{
+    width: 100%;
+    height: 50px;
+    background-image: url(image/meta\ ai.png);
+    background-size: contain;
+    
+}
+.icon1{
+    width: 100%;
+    height: 50px;  
+    background-image: url(image/messageicon.png);
+    background-size: contain;
+}
+.icon2{
+    width: 100%;
+    height: 50px; 
+    background-image: url(image/status.png);
+    background-size: contain;
+}
+.icon3{
+    width: 100%;
+    height: 50px;
+    background-image: url(image/channel.png);
+    background-size: contain;
+}
+.icon4{
+    width: 100%;
+    height: 50px;  
+    background-image: url(image/community.png);
+    background-size: contain;
+}
+.icon6{
+    width: 100%;
+    height: 50px;
+    
+    background-image: url(image/settings.png);
+    background-size: contain;
+}
+.icon7{
+    width: 100%;
+    height: 50px;
+    
+    background-image: url(image/profile.png);
+    background-size: contain;
+}
+.header{
+  height: 150px;   
+  background-color: white
+}
+.header1{
+    display: flex;
+    height: 70px;
+    
+    padding: 10px;
+   
+}
+.input{
+    display: flex;
+    height: 40px;
+    background-color:white;
+    
+}
+.searchicon{
+    width: 40px;
+    height: 100%;
+    background-image: url(image/searchicon.png);
+    background-size: contain;
+    margin-left: 10px;
+    border-radius:  10px 0px 0px 10px;
+}
+#input{
+    border-radius: 0px 10px 10px 0px;
+    width: 90%;
+    border: none;
+    background-color:whitesmoke;
+    margin-right: 10px;
+}
+.button{
+    background-color: white;
+}
+
+.button1{
+    margin-left: 10px ;
+    margin-top: 5px;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 0;
+}
+.button2{
+    margin-left: 5px ;
+    margin-top: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 0;
+}
+.button3{
+    margin-left: 5px ;
+    margin-top: 5px;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 0;
+}
+#chats{
+    font-size: 25px;
+   margin-left: 10px;
+   margin-top: 10px;
+    
+}
+#newcall{
+    width: 40px;
+   height: 40px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+#dotmenu{
+    width: 40px;  
+    height: 40px; 
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.body{
+    display: flex;
+    background-color:white;
+    flex-grow: 1;
+    flex-direction:column;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    
+
+    
+}
+.cont1{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border: 0;
+    display: flex;
+    padding: 10px 10px 10px 10px ;
+    
+    
+}
+.profilphoto1{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/img1.jpg);
+    background-size:cover;
+}
+.contname{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.profilphoto2{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/img2.jpg);
+    background-size:cover;
+}
+
+.profilphoto3{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/img3.jpg);
+    background-size:cover;
+}
+.profilphoto4{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/img4.jpg);
+    background-size:cover;
+}
+.profilphoto5{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/img5.jpg);
+    background-size:cover;
+}
+.profilphoto6{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/arunnmain.png);
+    background-size:cover;
+}
+.profilphoto7{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/prajeeshtemain.png);
+    background-size:cover;
+}
+.profilphoto8{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/profile2.png);
+    background-size:cover;
+}
+.profilphoto9{
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background-image: url(image/story3.png);
+    background-size:cover;
+}
+
